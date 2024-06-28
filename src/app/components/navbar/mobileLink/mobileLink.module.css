@@ -1,0 +1,47 @@
+.container{
+    position: absolute;
+    height: calc(100vh - 120px);
+    top: 120px;
+    right: 0;
+    left: 0;
+    transition: 0.4s;
+    z-index: 999;
+    /* animation-name: collapse; */
+}
+
+.collapsed{
+    position: absolute;
+    height: calc(100vh - 120px);
+    top: 120px;
+    right: 0;
+    left: 0;
+    transition: 0.4s;
+    height: 0px;
+    animation-name: collapse;
+    /* animation-delay: -200ms; */
+}
+
+.hidden{
+    display: none;
+}
+
+.wrapper{
+    background-color: rgb(50, 1, 122);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    animation: collapse;
+}
+
+@keyframes collapse{
+    100% { display: none;}
+}
+
+@media (min-width: 992px){
+    .container{
+        display: none;
+    }
+}

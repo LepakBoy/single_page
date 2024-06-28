@@ -1,0 +1,42 @@
+.container{
+  /* padding: 12px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.badge{
+    display: flex;
+    gap: 62px;
+}
+
+.logo{
+    color: #fff;
+}
+
+.email_badge{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navlinks{
+    display: flex;
+}
+
+.navlinks a{
+    text-decoration: none;
+}
+
+@media (max-width: 1024px){
+    .badge{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 475px){
+    .email_badge{
+        display: none;
+    }
+}

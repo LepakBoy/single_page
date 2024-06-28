@@ -1,0 +1,156 @@
+.container{
+    padding: 18px 0px 18px;
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+}
+
+.content{
+    padding: 18px 0px 18px;
+    position: relative;
+    top: 22px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+}
+
+.title_name{
+    font-size: 32px;
+    background-color: #5d5d5d;
+    background: -webkit-linear-gradient(62deg, #8e8e8e 0%, #ece7f0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title{
+    font-size: 52px;
+    background-color: #8d25fb;
+    background: -webkit-linear-gradient(62deg, #9334f8 0%, #d3adfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description{
+    width: 80%;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: left;
+}
+
+.hero_image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    position: relative;
+    width: 420px;
+    height: 420px;
+    top: 18px;
+    border-radius: 36px;
+    border: 2px solid rgb(79, 1, 131);
+    transform: rotate(4deg);
+    transition: 0.4s;
+}
+
+.photo_mobile{
+    margin-inline: auto;
+    margin-block: 12px;
+    width: 360px;
+    height: 360px;
+    top: 18px;
+    border-radius: 36px;
+    border: 2px solid rgb(79, 1, 131);
+    transform: rotate(4deg);
+}
+
+
+.photo:hover{
+    transform: rotate(0deg);
+    border: 3px solid rgb(147, 45, 250);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px;
+    display: flex;
+    gap: 28px;
+}
+
+.button_cv{
+    width: 200px;
+    padding: 18px;
+    color: var(--prime_color);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid var(--prime_color);
+    transition: 0.4s;
+}
+
+.button_media{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid var(--prime_color);
+    color: var(--prime_color);
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.button_effect:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--prime_color);
+}
+
+@media (max-width: 1024px){
+    .photo{
+        height: 360px;
+        width: 360px;
+    }
+}
+
+@media (max-width: 768px){
+    .hero_image{
+        display: none;
+    }
+
+    .content{
+        gap: 12px;
+    }
+
+    .container,
+    .content{
+        padding: 0;
+    }
+
+    .content{
+        top: 8px;
+    }
+
+    .title{
+        font-size: 36px;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+
+    .title_name{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px){
+    .photo_mobile{
+        display: none;
+    }
+}

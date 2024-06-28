@@ -1,5 +1,5 @@
 .container{
-    padding: 18px 0px 18px;
+    min-height: calc(100vh - 80px);
     width: 100%;
     display: flex;
     color: aliceblue;
@@ -8,7 +8,7 @@
 .content{
     padding: 18px 0px 18px;
     position: relative;
-    top: 22px;
+    top: -52px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .title{
-    font-size: 52px;
+    font-size: 48px;
     background-color: #8d25fb;
     background: -webkit-linear-gradient(62deg, #9334f8 0%, #d3adfd 100%);
     -webkit-background-clip: text;
@@ -34,7 +34,7 @@
 
 .description{
     width: 80%;
-    font-size: 20px;
+    font-size: 18px;
     word-spacing: 3px;
     text-align: left;
 }
@@ -50,7 +50,7 @@
     position: relative;
     width: 380px;
     height: 420px;
-    top: 18px;
+    top: -68px;
     border-radius: 36px;
     border: 2px solid rgb(79, 1, 131);
     transform: rotate(4deg);
@@ -84,8 +84,8 @@
 }
 
 .button_cv{
-    width: 220px;
-    padding: 18px;
+    width: 200px;
+    padding: 14px;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -133,6 +133,9 @@
 
 
 @media (max-width: 1024px){
+    .content{
+        top: 0;
+    }
     .social_box{
         margin-top: 24px;
         gap: 20px;
@@ -154,15 +157,13 @@
     .photo{
         height: 320px;
         width: 300px;
+        top: unset;
     }
 
     .title{
         font-size: 42px;
     }
 
-    .description{
-        font-size: 18px;
-    }
 }
 
 @media (max-width: 768px){
@@ -179,9 +180,9 @@
         padding: 0;
     }
 
-    .content{
+    /* .content{
         top: 8px;
-    }
+    } */
 
     .title{
         font-size: 36px;

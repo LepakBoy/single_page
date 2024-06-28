@@ -1,3 +1,7 @@
+.section{
+    padding: 98px 0 98px;
+}
+
 .container{
     min-height: calc(100vh - 80px);
     width: 100%;
@@ -48,8 +52,8 @@
 
 .photo{
     position: relative;
-    width: 380px;
-    height: 420px;
+    width: 420px;
+    height: 460px;
     top: -68px;
     border-radius: 36px;
     border: 2px solid rgb(79, 1, 131);

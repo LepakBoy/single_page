@@ -32,8 +32,6 @@ body{
 @media(max-width: 1336px){
   .container{
     width: 1280px;
-    padding-right: 20px;
-    padding-left: 20px;
   }
 }
 
@@ -41,11 +39,17 @@ body{
   .container{
     width: 1024px;
     padding-left: 20px;
-    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
 @media(max-width: 1024px){
+  .container{
+    width: 992px;
+  }
+}
+
+@media(max-width: 992px){
   .container{
     width: 768px;
   }

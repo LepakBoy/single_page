@@ -48,7 +48,7 @@
 
 .photo{
     position: relative;
-    width: 420px;
+    width: 380px;
     height: 420px;
     top: 18px;
     border-radius: 36px;
@@ -60,7 +60,7 @@
 .photo_mobile{
     margin-inline: auto;
     margin-block: 12px;
-    width: 360px;
+    width: 320px;
     height: 360px;
     top: 18px;
     border-radius: 36px;
@@ -76,6 +76,7 @@
 
 .buttons{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px 0 10px;
     display: flex;
@@ -83,8 +84,13 @@
 }
 
 .button_cv{
-    width: 200px;
+    width: 220px;
     padding: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
     color: var(--prime_color);
     font-size: 16px;
     font-weight: 600;
@@ -94,27 +100,68 @@
     transition: 0.4s;
 }
 
+.social_box{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
 .button_media{
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background-color: transparent;
     border: 1px solid var(--prime_color);
     color: var(--prime_color);
     font-weight: 600;
+    font-weight: 800;
     transition: 0.4s;
+}
+
+.svg_icon{
+    color: #fff;
 }
 
 .button_effect:hover{
     cursor: pointer;
-    color: #fff;
     background-color: var(--prime_color);
+    color: #fff;
 }
 
+
 @media (max-width: 1024px){
+    .social_box{
+        margin-top: 24px;
+        gap: 20px;
+    }
+
+    .button_cv{
+        width: 220px;
+        padding: 12px;
+    }
+
+    .button_media{
+        width: 36px;
+        height: 36px;
+    }
+
+    .buttons{
+        display: block;
+    }
     .photo{
-        height: 360px;
-        width: 360px;
+        height: 320px;
+        width: 300px;
+    }
+
+    .title{
+        font-size: 42px;
+    }
+
+    .description{
+        font-size: 18px;
     }
 }
 
@@ -142,12 +189,35 @@
 
     .description{
         font-size: 16px;
+        width: 100%;
     }
 
     .title_name{
         font-size: 24px;
     }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social_box{
+        margin-top: 0;
+    }
+
+    .photo_mobile{
+        height: 400px;
+        width: 380px;
+    }
 }
+
+@media(max-width: 640px){
+    .photo_mobile{
+        height: 320px;
+        width: 300px;
+    }
+  }
 
 @media (min-width: 768px){
     .photo_mobile{

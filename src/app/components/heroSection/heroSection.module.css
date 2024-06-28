@@ -171,6 +171,10 @@
 }
 
 @media (max-width: 768px){
+    .section{
+        padding: 0 0 72px;
+    }
+
     .hero_image{
         display: none;
     }
@@ -218,6 +222,10 @@
 }
 
 @media(max-width: 640px){
+    .section{
+        padding: 0 0 60px;
+    }
+
     .photo_mobile{
         height: 320px;
         width: 300px;

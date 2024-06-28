@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .title{
@@ -11,4 +12,16 @@
     background: var(--prime_gradient_text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1024px){
+    .title{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .title{
+        font-size: 30px;
+    }
 }

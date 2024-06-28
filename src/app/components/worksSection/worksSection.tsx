@@ -4,8 +4,8 @@ import TitleSection from '../molecule/titleSection/titleSection';
 
 export default function WorksSection() {
   return (
-    <div className={styles.container}>
+    <section className={styles.section}>
       <TitleSection title="My Awesome Works" />
-    </div>
+    </section>
   );
 }

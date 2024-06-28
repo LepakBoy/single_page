@@ -1,15 +1,27 @@
 .text{
-    position: absolute;
+    position: fixed;
     font-size: 112px;
     font-weight: 900;
     color: rgb(40, 119, 188);
     /* border: 1px solid red; */
     color: transparent;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 25%;
+    transform: translate(75%, -50%);
     /* text-shadow: 0 0 3px #ff000000, 0 0 5px #056d34fb; */
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: red;
-    z-index: -1;
+    -webkit-text-stroke-color: rgba(85, 255, 0, 0.685);
+    z-index: -9;
+    animation: scale-up 3s infinite ease-in-out alternate;
+    
+}
+
+@keyframes scale-up{
+    0%{
+        transform: scale(0.8);
+    }
+
+    100%{
+        transform: scale(1);
+    }
 }

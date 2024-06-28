@@ -1,8 +1,20 @@
-.container{
+.section{
     padding: 98px 0 98px;
 
 }
 
 .coba{
     color: #fff;
+}
+
+@media (max-width: 768px){
+    .section{
+        padding: 0 0 72px;
+    }
+}
+
+@media (max-width: 640px){
+    .section{
+        padding: 0 0 60px;
+    }
 }

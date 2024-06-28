@@ -1,5 +1,5 @@
 .section{
-    padding: 98px 0 98px;
+    padding: 0 0 98px;
 }
 
 .container{
@@ -23,7 +23,7 @@
 .title_name{
     font-size: 32px;
     background-color: #5d5d5d;
-    background: -webkit-linear-gradient(62deg, #8e8e8e 0%, #ece7f0 100%);
+    background: var(--secondary_gradient_text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -31,7 +31,7 @@
 .title{
     font-size: 48px;
     background-color: #8d25fb;
-    background: -webkit-linear-gradient(62deg, #9334f8 0%, #d3adfd 100%);
+    background: var(--prime_gradient_text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

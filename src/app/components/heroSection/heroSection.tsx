@@ -9,6 +9,7 @@ import WebIcon from '../../../../public/web.svg';
 import Link from 'next/link';
 import Badge from '../molecule/badge/badge';
 import BadgeSection from '../badgeSection/badgeSection';
+import BgHero from '../molecule/bgHero/bgHero';
 
 export default function HeroSection() {
   const listButton = [
@@ -20,6 +21,7 @@ export default function HeroSection() {
 
   return (
     <section className={styles.section}>
+      {/* <BgHero /> */}
       <div className={styles.container}>
         <div className={styles.content}>
           <h2 className={styles.title_name}>I am Fikri Ahmad</h2>

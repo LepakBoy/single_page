@@ -15,14 +15,18 @@
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    background: linear-gradient(63deg, rgb(100, 22, 195) 7%, rgba(124,86,209,0.5144651610644257) 68%, rgba(95, 9, 121, 0.189) 100%);
-    transition: 0.8s;
+    background: rgb(126,75,204);
+    background: linear-gradient(24deg, rgba(83, 28, 165, 0.974) 12%, rgba(72,25,113,0.6601234243697479) 70%);
+    transition: 1s;
 
 }
 
 .button_hire:hover{
     cursor: pointer;
-    background: linear-gradient(286deg, rgb(100, 22, 195) 7%, rgba(124,86,209,0.5144651610644257) 68%, rgba(95, 9, 121, 0.189) 100%);
+    background: rgb(126,75,204);
+    background: linear-gradient(286deg, rgb(100, 22, 195) 22%, rgba(124,86,209,0.5144651610644257) 68%, rgba(95, 9, 121, 0.189) 100%);
+    transition: 1s;
+
 }
 
 .nav_button{

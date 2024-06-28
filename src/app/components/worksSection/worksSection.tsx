@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './worksSection.module.css';
+import TitleSection from '../molecule/titleSection/titleSection';
 
 export default function WorksSection() {
   return (
     <div className={styles.container}>
-      <div className={styles.coba}>work section</div>
+      <TitleSection title="My Awesome Works" />
     </div>
   );
 }

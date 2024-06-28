@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className={styles.container}>
       <div className={styles.badge}>
         <div className={styles.logo}>Logo</div>
-        <span className={styles.email_badge}>fikrinadzif35@gmail.com</span>
+        <span className={styles.email_badge}>amdfikri35@gmail.com</span>
       </div>
       <ItemLink />
     </div>

@@ -1,6 +1,8 @@
 .container{
     padding: 22px 14px;
     display: flex;
+    transition: 0.4s;
+    border-bottom: 1px solid #2a1454;
 }
 
 .container:hover{

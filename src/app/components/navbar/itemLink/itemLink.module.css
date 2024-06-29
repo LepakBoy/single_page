@@ -16,8 +16,7 @@
     font-size: 16px;
     font-weight: 600;
     background: rgb(126,75,204);
-    background: linear-gradient(24deg, rgba(83, 28, 165, 0.974) 12%, rgba(72,25,113,0.6601234243697479) 70%);
-    transition: 1s;
+    background:var(--prime_gradient_background);    transition: 1s;
 
 }
 

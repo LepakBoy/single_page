@@ -4,6 +4,7 @@
   --prime_text: #FBFAFB;
   --prime_gradient_text: -webkit-linear-gradient(62deg, #9334f8 0%, #d3adfd 100%);
   --secondary_gradient_text: -webkit-linear-gradient(62deg, #8e8e8e 0%, #ece7f0 100%);
+  --prime_gradient_background: linear-gradient(24deg, rgba(83, 28, 165, 0.974) 12%, rgba(72,25,113,0.6601234243697479) 70%);
 }
 
 *{

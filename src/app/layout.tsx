@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, PT_Sans, Sora } from 'next/font/google';
+import { Sora } from 'next/font/google';
 import './globals.css';
 import Navbar from './components/navbar/navbar';
 import BgHero from './components/molecule/bgHero/bgHero';
@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="container">
           <Navbar />
-          <BgHero />
+          {/* <BgHero /> */}
           {children}
         </div>
       </body>

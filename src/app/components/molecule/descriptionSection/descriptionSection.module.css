@@ -1,0 +1,30 @@
+.container{
+    margin: auto;
+    max-width: 70%;
+    padding: 16px 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description{
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--prime_text);
+}
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .description{
+        font-size: 16px;
+    }
+}

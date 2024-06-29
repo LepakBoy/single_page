@@ -1,17 +1,25 @@
 .text{
+    font-family:Arial, Helvetica, sans-serif;
     position: fixed;
-    font-size: 112px;
+    font-size: 122px;
     font-weight: 900;
     color: transparent;
     top: 50%;
     left: 25%;
     transform: translate(75%, -50%);
     /* text-shadow: 0 0 3px #ff000000, 0 0 5px #056d34fb; */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(85, 255, 0, 0.685);
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: var(--prime_color);
+    filter: blur(1px);
     z-index: -9;
     animation: scale-up 3s infinite ease-in-out alternate;
     
+}
+
+@media (max-width: 992px) {
+    .text{
+        display: none;
+    }
 }
 
 @keyframes scale-up{

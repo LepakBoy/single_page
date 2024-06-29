@@ -3,12 +3,17 @@ import styles from './titleSection.module.css';
 
 interface ITitleSection {
   title: string;
+  centered?: boolean;
 }
 
-export default function TitleSection({ title }: ITitleSection) {
+export default function TitleSection({ title, centered }: ITitleSection) {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>{title || 'title section'}</h1>
+    <div
+      className={`${styles.container} ${
+        centered ? styles.center_title : styles.left_title
+      }`}
+    >
+      <h1 className={styles.title}>{title}</h1>
     </div>
   );
 }

@@ -1,6 +1,14 @@
 .container{
     display: flex;
     align-items: center;
+}
+
+.left_title{
+    justify-content: left;
+    text-align: left;
+}
+
+.center_title{
     justify-content: center;
     text-align: center;
 }

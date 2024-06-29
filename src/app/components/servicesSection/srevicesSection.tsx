@@ -8,20 +8,20 @@ import { servicesList } from '@/static/services';
 export default function ServicesSection() {
   return (
     <section className={styles.container}>
-      <TitleSection title="My Quality Services" />
+      <TitleSection
+        centered
+        title="My Quality Services"
+      />
       <DescriptionSection text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, ipsa minus, eius voluptatibus nisi expedita voluptatum sit maiores nostrum doloribus veniam " />
       <div className={styles.wrapper}>
-        {servicesList.map((list) => (
+        {servicesList.map((list, i) => (
           <ButtonServices
             key={list.name}
             name={list.name}
+            number={`0${i + 1}`}
             description={list.description}
           />
         ))}
-        {/* <ButtonServices />
-        <ButtonServices />
-        <ButtonServices />
-        <ButtonServices /> */}
       </div>
     </section>
   );

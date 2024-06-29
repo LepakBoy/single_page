@@ -1,7 +1,13 @@
 import React from 'react';
 import styles from './resumeCard.module.css';
 
-export default function ResumeCard() {
+interface IResumeCard {
+  date: string;
+  title: string;
+  text: string;
+}
+
+export default function ResumeCard({ date, title, text }: IResumeCard) {
   return (
     <div className={styles.container}>
       <h5 className={styles.date}>2020 - Present</h5>

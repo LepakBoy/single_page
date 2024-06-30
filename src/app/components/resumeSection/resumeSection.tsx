@@ -8,49 +8,18 @@ import CardGroups from './cardGroups/cardGroups';
 export default function ResumeSection() {
   return (
     <section className={styles.container}>
-      {/* <CardGroups  /> */}
-      <div className={styles.wrapper}>
-        <TitleSection title="My Experience" />
-        <div className={styles.cards_group}>
-          {/* <ResumeCard />
-          <ResumeCard />
-          <ResumeCard /> */}
-          {experienceList.map((list) => (
-            <ResumeCard
-              date={list.date}
-              title={list.title}
-              text={list.text}
-              key={list.title}
-            />
-          ))}
-        </div>
-      </div>
-      <div className={styles.wrapper}>
-        <TitleSection title="My Educations" />
-        <div className={styles.cards_group}>
-          {educationsList.map((list) => (
-            <ResumeCard
-              date={list.date}
-              title={list.title}
-              text={list.text}
-              key={list.title}
-            />
-          ))}{' '}
-        </div>
-      </div>
-      <div className={styles.wrapper}>
-        <TitleSection title="My Courses" />
-        <div className={styles.cards_group}>
-          {coursesList.map((list) => (
-            <ResumeCard
-              date={list.date}
-              title={list.title}
-              text={list.text}
-              key={list.title}
-            />
-          ))}{' '}
-        </div>
-      </div>
+      <CardGroups
+        title="My Experiences"
+        data={experienceList}
+      />
+      <CardGroups
+        title="My Educations"
+        data={educationsList}
+      />
+      <CardGroups
+        title="My Courses"
+        data={coursesList}
+      />
     </section>
   );
 }

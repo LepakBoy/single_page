@@ -1,15 +1,18 @@
 .container{
+    padding-bottom: 98px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .wrapper{
     width: 50%;
-    padding: 0 20px 0;
+    /* padding: 0 20px 0; */
 }
 
 .cards_group{
+    padding-right: 22px;
     margin-top: 30px;
     margin-bottom: 48px;
     display: flex;

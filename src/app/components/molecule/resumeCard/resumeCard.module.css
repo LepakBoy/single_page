@@ -4,6 +4,17 @@
     width: 100%;
     padding: 22px;
     border-radius: 14px;
+    transition: 0.4s;
+}
+
+.container:hover{
+    background-color: #8d25fb;
+    background: var(--prime_color);
+    /* background-color: var(--prime_gradient_background); */
+}
+
+.container:hover .date{
+    color: var(--prime_text);
 }
 
 .date{
@@ -20,4 +31,5 @@
 
 .text{
     color: var(--prime_text);
+    font-size: 16px;
 }

@@ -1,4 +1,6 @@
-export const experienceList = [
+import { ICardGroups } from "@/app/components/resumeSection/cardGroups/cardGroups"
+
+export const experienceList : ICardGroups[] = [
     {date:"2020 - Present", title: "LEAD DEVELOPER", text:"Jakarta"}, 
     {date:"2020 - Present", title: "LEAD DEVELOPER", text:"Jakarta"}, 
     {date:"2020 - Present", title: "LEAD DEVELOPER", text:"Jakarta"}, 

@@ -1,0 +1,46 @@
+.wrapper{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: #140c1c;
+    transition: 0.9s;
+}
+
+.skill_img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 18px;
+    filter: grayscale(90%)
+}
+
+.percentage{
+    font-size: 18px;
+    font-weight: 600;
+    color:#747779;
+}
+
+.wrapper:hover{
+    background-color: #8c25fb3a;
+    border: 2px solid var(--prime_color);
+}
+
+.name{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--prime_color);
+}
+
+.wrapper:hover .skill_img{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+.wrapper:hover .percentage{
+    color: var(--prime_color);
+}

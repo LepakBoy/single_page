@@ -14,7 +14,8 @@
     width: 70px;
     height: 70px;
     margin-bottom: 18px;
-    filter: grayscale(90%)
+    filter: grayscale(90%);
+    transition: 0.8s;
 }
 
 .percentage{

@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    padding: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(31, 1, 60, 0.576);
+    color: var(--prime_text);
+}
+
+.link{
+    text-decoration: none;
+    color: var(--prime_text);
+}

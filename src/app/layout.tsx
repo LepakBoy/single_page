@@ -3,6 +3,7 @@ import { Sora } from 'next/font/google';
 import './globals.css';
 import Navbar from './components/navbar/navbar';
 import BgHero from './components/molecule/bgHero/bgHero';
+import Footer from './components/footer/footer';
 
 const inter = Sora({ subsets: ['latin'] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           {/* <BgHero /> */}
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

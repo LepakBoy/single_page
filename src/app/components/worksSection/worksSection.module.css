@@ -3,13 +3,33 @@
 
 }
 
-.coba{
-    color: #fff;
+.container{
+    padding-top: 36px;
+    width: 100%;
+    /* padding: 12px; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 12px;  */
+}
+
+.wrapper{
+    width: 45%;
+    background-color: aqua;
+    margin-top: 22px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* gap: 52px; */
 }
 
 @media (max-width: 768px){
     .section{
         padding: 0 0 72px;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        gap: 32px;
     }
 }
 

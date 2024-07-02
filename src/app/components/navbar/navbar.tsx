@@ -5,12 +5,12 @@ import MobileLink from './mobileLink/mobileLink';
 
 export default function Navbar() {
   return (
-    <div className={styles.container}>
+    <nav className={styles.container}>
       <div className={styles.badge}>
         <div className={styles.logo}>Logo</div>
         <span className={styles.email_badge}>amdfikri35@gmail.com</span>
       </div>
       <ItemLink />
-    </div>
+    </nav>
   );
 }

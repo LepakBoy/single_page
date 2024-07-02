@@ -8,9 +8,7 @@
 }
 
 .container:hover{
-    background-color: #8d25fb;
-    background: var(--prime_color);
-    /* background-color: var(--prime_gradient_background); */
+    background:  linear-gradient(24deg, rgba(163, 101, 255, 0.974) 12%, rgb(89, 0, 166) 70%);   
 }
 
 .container:hover .date{

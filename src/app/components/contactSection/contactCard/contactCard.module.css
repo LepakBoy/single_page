@@ -1,0 +1,24 @@
+.container{
+    margin-bottom: 28px;
+    display: flex;
+    gap: 18px;
+    color: var(--prime_text);
+}
+
+.logo{
+    width: 56px;
+    height: 56px;
+    border: none;
+    background: var(--prime_color) ;
+    background: var(--prime_gradient_background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.text{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}

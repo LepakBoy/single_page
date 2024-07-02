@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './contactSection.module.css';
 import TitleSection from '../molecule/titleSection/titleSection';
+import ContactCard from './contactCard/contactCard';
+import { contacts } from '@/static/contact';
 
 export default function ContactSection() {
   return (
@@ -43,7 +45,18 @@ export default function ContactSection() {
           <button className={styles.button_send}>Send message</button>
         </div>
       </div>
-      <div className={styles.contact_area}>ocntact area</div>
+      <div className={styles.contact_area}>
+        <div className={styles.contact_wrapper}>
+          {contacts.map((contact) => (
+            <ContactCard
+              key={contact.value}
+              logo={contact.logo}
+              title={contact.title}
+              value={contact.value}
+            />
+          ))}
+        </div>
+      </div>
     </section>
   );
 }

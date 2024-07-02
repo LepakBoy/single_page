@@ -17,6 +17,7 @@ export default function WorksSection() {
         <WorkdCard />
         <WorkdCard />
         <WorkdCard />
+        <WorkdCard />
       </div>
     </section>
   );

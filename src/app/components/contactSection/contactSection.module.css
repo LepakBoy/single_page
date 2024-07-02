@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+}
+
+.input_area{
+    padding: 18px;
+    border-radius: 12px;
+    width: 50%;
+    color: aliceblue;
+    /* background: rgb(31,14,60);
+    background: linear-gradient(24deg, rgba(31,14,60,0.9738489145658263) 8%, rgba(38,26,47,0.8758096988795518) 95%);} */
+    background-color: rgba(31, 1, 60, 0.576);
+}
+
+.contact_area{
+    width: 50%;
+}
+
+.inputs_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_input{
+    background-color: red;
+    width: 50%;
+    padding: 12px;
+
+}
+
+.row{
+    margin-bottom: 18px;
+    display: flex;
+    width: 100%;
+    gap: 24px;
+
+}
+
+.input_field{
+    height: 42px;
+}
+
+.input_field, .text_area{
+    /* width: 100%; */
+    padding: 8px;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: #150d20;
+    border: 1px solid #22272c;
+    color: var(--prime_text);
+}
+
+.text_area{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.button_send{
+    padding: 20px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 28px;
+    color: var(--prime_text);
+    background: var(--prime_color);
+    background: var(--prime_gradient_background);
+}
+
+.text_contact{
+    margin: 28px 0;
+    color: var(--prime_text);
+}

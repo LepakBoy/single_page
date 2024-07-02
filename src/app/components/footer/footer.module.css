@@ -15,3 +15,7 @@
     text-decoration: none;
     color: var(--prime_text);
 }
+
+.link:hover{
+    color: var(--prime_color);
+}

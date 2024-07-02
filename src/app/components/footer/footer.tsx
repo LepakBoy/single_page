@@ -9,6 +9,7 @@ export default function Footer() {
       <Link
         className={styles.link}
         href="https://themejunction.net/html/gerold/demo/"
+        target="__blank"
       >
         Gerold Design
       </Link>

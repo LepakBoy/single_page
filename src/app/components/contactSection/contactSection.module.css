@@ -5,7 +5,7 @@
 }
 
 .input_area{
-    padding: 18px;
+    padding: 32px 32px 32px 32px;
     border-radius: 12px;
     width: 50%;
     color: var(--prime_text);
@@ -17,6 +17,7 @@
 }
 
 .inputs_wrapper{
+    padding: 22px 0 22px 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -46,7 +47,7 @@
 
 .text_area{
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 .button_send{
@@ -61,7 +62,7 @@
 }
 
 .text_contact{
-    margin: 28px 0;
+    margin: 16px 0;
     color: var(--prime_text);
 }
 
@@ -83,6 +84,10 @@
         width: 100%;
         padding: 36px;
         align-items: start;
+    }
+
+    .button_send{
+        font-size: 14px;
     }
 }
 

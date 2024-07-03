@@ -27,12 +27,19 @@
 
 .badge{
     display: flex;
-    gap: 62px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
 }
 
 .logo{
     text-decoration: none;
     color: #fff;
+}
+
+.logo_img{
+    width: 62px;
+    height: 62px;
 }
 
 .email_badge{

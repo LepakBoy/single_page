@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './navbar.module.css';
 import ItemLink from './itemLink/itemLink';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [scroll, setScroll] = useState<number>(0);
@@ -30,7 +31,13 @@ export default function Navbar() {
           href="/#hero"
           className={styles.logo}
         >
-          Logo
+          <Image
+            className={styles.logo_img}
+            src="/logo.png"
+            height={100}
+            width={100}
+            alt="logo"
+          />
         </Link>
         <span className={styles.email_badge}>amdfikri35@gmail.com</span>
       </div>

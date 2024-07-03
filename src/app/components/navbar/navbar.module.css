@@ -6,6 +6,7 @@
   /* position: sticky; */
   top: 0;
   z-index: 999;
+  transition: 0.4s;
 }
 
 .sticky{
@@ -21,6 +22,7 @@
     z-index: 999;
     background-color: #080019;
     background-image: linear-gradient(62deg, #060014 0%, #17002c 100%);
+    transition: 0.4s;
 }
 
 .badge{

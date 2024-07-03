@@ -1,8 +1,7 @@
 export const links = [
-    { title: 'Services', path: '/services' },
-    // resume => education, experience, skills
-    { title: 'Works', path: '/works' },
-    { title: 'Skills', path: '/skill' },
-    { title: 'Resume', path: '/resume' },
-    { title: 'Contact', path: '/contact' },
+    { title: 'Services', path: '/#services' },
+    { title: 'Works', path: '/#works' },
+    { title: 'Skills', path: '/#skills' },
+    { title: 'Resume', path: '/#resume' },
+    { title: 'Contact', path: '/#contact' },
   ];

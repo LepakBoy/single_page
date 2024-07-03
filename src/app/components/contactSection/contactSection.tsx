@@ -6,7 +6,10 @@ import { contacts } from '@/static/contact';
 
 export default function ContactSection() {
   return (
-    <section className={styles.container}>
+    <section
+      id="contact"
+      className={styles.container}
+    >
       <div className={styles.input_area}>
         <TitleSection title={`Let's work together!`} />
         <p className={styles.text_contact}>

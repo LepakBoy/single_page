@@ -5,6 +5,23 @@
     border-bottom: 1px solid #2a1454;
 }
 
+/* .container:first-child{
+    background:  linear-gradient(24deg, rgba(163, 101, 255, 0.974) 12%, rgb(89, 0, 166) 70%); 
+    
+} */
+
+/* .container:first-child .number{
+    color: var(--prime_text);
+} */
+
+.container:hover:not(:first-child) .container:first-child{
+    background: transparent;
+}
+
+.container:not(:hover):not(:first-child){
+    background: transparent;
+}
+
 .container:hover{
     background:  linear-gradient(24deg, rgba(163, 101, 255, 0.974) 12%, rgb(89, 0, 166) 70%);   
     /* background-color: var(--prime_gradient_background); */
@@ -15,7 +32,7 @@
 }
 
 .title_service{
-    color: #fff;
+    color: var(--prime_text);
     padding: 12px;
     flex: 4;
     display: flex;

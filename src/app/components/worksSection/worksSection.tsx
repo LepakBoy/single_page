@@ -6,7 +6,10 @@ import WorkdCard from './worksCard/workdCard';
 
 export default function WorksSection() {
   return (
-    <section className={styles.section}>
+    <section
+      id="works"
+      className={styles.section}
+    >
       <TitleSection
         centered
         title="My Recent Works"

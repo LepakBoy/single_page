@@ -7,7 +7,10 @@ import { servicesList } from '@/static/services';
 
 export default function ServicesSection() {
   return (
-    <section className={styles.container}>
+    <section
+      id="services"
+      className={styles.container}
+    >
       <TitleSection
         centered
         title="My Quality Services"

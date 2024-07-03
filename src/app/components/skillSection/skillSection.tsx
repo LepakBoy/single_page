@@ -7,7 +7,10 @@ import { skillList } from '@/static/skills';
 
 export default function SkillSection() {
   return (
-    <div className={styles.container}>
+    <section
+      id="skills"
+      className={styles.container}
+    >
       <TitleSection
         centered
         title="My Skills"
@@ -23,6 +26,6 @@ export default function SkillSection() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

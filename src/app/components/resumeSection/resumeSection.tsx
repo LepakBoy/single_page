@@ -7,7 +7,10 @@ import CardGroups from './cardGroups/cardGroups';
 
 export default function ResumeSection() {
   return (
-    <section className={styles.container}>
+    <section
+      id="resume"
+      className={styles.container}
+    >
       <CardGroups
         title="My Experiences"
         data={experienceList}

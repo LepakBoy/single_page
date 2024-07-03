@@ -7,9 +7,7 @@ import LinkedInIcon from '../../../../public/linkedin.svg';
 import GithubIcon from '../../../../public/github.svg';
 import WebIcon from '../../../../public/web.svg';
 import Link from 'next/link';
-import Badge from '../molecule/badge/badge';
 import BadgeSection from '../badgeSection/badgeSection';
-import BgHero from '../molecule/bgHero/bgHero';
 
 export default function HeroSection() {
   const listButton = [
@@ -20,7 +18,10 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className={styles.section}>
+    <section
+      id="hero"
+      className={styles.section}
+    >
       {/* <BgHero /> */}
       <div className={styles.container}>
         <div className={styles.content}>
@@ -36,9 +37,13 @@ export default function HeroSection() {
             alt=""
           />
           <p className={styles.description}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-            doloribus delectus officiis cumque consequatur, libero eligendi
-            perferendis laborum quam voluptas debitis
+            I am an experienced web developer. I specialize in designing,
+            creating, and maintaining websites using HTML, CSS, JavaScript,
+            React.js as well as backend languages like Node.js. With a focus on
+            responsive design, SEO, and web security, I ensure the websites I
+            build are safe, fast, and easily accessible on various devices.
+            Creativity, problem-solving, and continuous learning of new
+            technologies are my main strengths.
           </p>
           <div className={styles.buttons}>
             <Link

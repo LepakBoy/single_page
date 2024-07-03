@@ -19,7 +19,7 @@ export default function SkillsCard({ name, img, percentage }: ISkillsCard) {
           width={100}
           alt="react"
         />
-        <h3 className={styles.percentage}>{`${percentage}%`}</h3>
+        {/* <h3 className={styles.percentage}>{`${percentage}%`}</h3> */}
       </div>
       <h3 className={styles.name}>{name}</h3>
     </div>

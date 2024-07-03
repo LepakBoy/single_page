@@ -5,6 +5,11 @@ import ServicesSection from './components/servicesSection/srevicesSection';
 import SkillSection from './components/skillSection/skillSection';
 import WorksSection from './components/worksSection/worksSection';
 
+export const metadata = {
+  title: 'Personal Website',
+  description: 'about page description',
+};
+
 export default function Home() {
   return (
     <main>

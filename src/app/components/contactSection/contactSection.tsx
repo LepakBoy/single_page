@@ -13,8 +13,8 @@ export default function ContactSection() {
       <div className={styles.input_area}>
         <TitleSection title={`Let's work together!`} />
         <p className={styles.text_contact}>
-          I design and code beautifully simple things and i love what i do. Just
-          simple like that!
+          Let's connect and collaborate! Reach out to discuss how we can work
+          together to bring your web projects to life.
         </p>
         <div className={styles.inputs_wrapper}>
           <div className={styles.row}>

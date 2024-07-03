@@ -1,6 +1,7 @@
 export const servicesList = [
-    {name: "Frontend Web Developer", description: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"},
-    {name: "Backend Web Developer", description: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"},
-    {name: "Prototype to Web Page", description: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"},
-    {name: "2D CAD Drafting", description: "I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people"},
+    {name: "Frontend Web Developer", description: "I develop responsive, user-friendly interfaces using modern frontend technologies, focusing on enhancing user experience and ensuring seamless interaction across all devices."},
+    {name: "Backend Web Developer", description: "I design and implement robust backend systems using modern technologies, ensuring secure, efficient, and scalable server-side functionality. My work includes database management, API development, and server optimization to support seamless and reliable user experiences."},
+    {name: "Prototype to Web Page", description: "I transform prototypes into fully functional web pages, ensuring accurate implementation of design elements and interactive features. My work involves translating visual concepts into responsive, user-friendly websites that adhere to modern web standards and provide an engaging user experience."},
+    {name: "2D CAD Drafting", description: 
+        "I create precise and detailed 2D CAD drawings, transforming concepts into accurate technical plans. My work involves drafting layouts, elevations, and sections, ensuring all designs meet industry standards and client specifications for various engineering and architectural projects."},
 ]

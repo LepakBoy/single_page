@@ -27,7 +27,7 @@ export default function Navbar() {
     <nav className={`${scroll >= 120 ? styles.sticky : styles.container}`}>
       <div className={styles.badge}>
         <Link
-          href="/"
+          href="/#hero"
           className={styles.logo}
         >
           Logo

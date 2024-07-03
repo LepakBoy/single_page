@@ -15,7 +15,7 @@ export default function SkillSection() {
         centered
         title="My Skills"
       />
-      <DescriptionSection text="We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers." />
+      <DescriptionSection text="I am proficient in creating responsive and user-friendly websites, utilizing HTML, CSS, JavaScript, and various frontend frameworks to deliver visually appealing and functional web solutions." />
       <div className={styles.wrapper}>
         {skillList.map((list) => (
           <SkillsCard

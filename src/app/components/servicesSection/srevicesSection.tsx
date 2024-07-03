@@ -15,7 +15,7 @@ export default function ServicesSection() {
         centered
         title="My Quality Services"
       />
-      <DescriptionSection text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, ipsa minus, eius voluptatibus nisi expedita voluptatum sit maiores nostrum doloribus veniam " />
+      <DescriptionSection text="As a full stack web developer, I provide end-to-end website development services, creating user-friendly interfaces and implementing powerful backend functionalities. I specialize in delivering tailored web solutions that meet client objectives and enhance online presence effectively." />
       <div className={styles.wrapper}>
         {servicesList.map((list, i) => (
           <ButtonServices

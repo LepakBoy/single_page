@@ -14,7 +14,7 @@ export default function WorksSection() {
         centered
         title="My Recent Works"
       />
-      <DescriptionSection text="We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers." />
+      <DescriptionSection text="I have completed a variety of projects, including interactive web applications, portfolio websites, and content management systems, demonstrating my proficiency in frontend development, backend integration, and creating engaging user experiences." />
       <div className={styles.container}>
         <WorkdCard />
         <WorkdCard />

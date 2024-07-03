@@ -5,3 +5,6 @@
     font-weight: 600;
 }
 
+.active{
+    border-bottom: 1px solid var(--prime_color);
+}

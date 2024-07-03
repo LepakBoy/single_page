@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react';
 import styles from './itemLink.module.css';
-import Link from 'next/link';
 import NavLink from '../navLink';
 import MobileLink from '../mobileLink/mobileLink';
 import { links } from '@/static/navbarLink';

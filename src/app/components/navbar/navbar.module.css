@@ -1,13 +1,26 @@
 .container{
-  /* padding: 12px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 120px;
-  /* position: sticky;
+  /* position: sticky; */
   top: 0;
-  z-index: 999; */
+  z-index: 999;
 }
+
+.sticky{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 32px 0;
+    z-index: 999;
+    background-color: #080019;
+    background-image: linear-gradient(62deg, #060014 0%, #17002c 100%);}
 
 .badge{
     display: flex;
@@ -15,6 +28,7 @@
 }
 
 .logo{
+    text-decoration: none;
     color: #fff;
 }
 

@@ -1,20 +1,22 @@
 import React from 'react';
 import styles from './heroSection.module.css';
 import Image from 'next/image';
-import DownloadIcon from '../../../../public/download.svg';
-import TwitterIcon from '../../../../public/twitter.svg';
-import LinkedInIcon from '../../../../public/linkedin.svg';
-import GithubIcon from '../../../../public/github.svg';
-import WebIcon from '../../../../public/web.svg';
 import Link from 'next/link';
 import BadgeSection from '../badgeSection/badgeSection';
+import {
+  DownloadIcon,
+  GithubIcon,
+  LinkedInIcon,
+  TwitterIcon,
+  WebIcon,
+} from '../../../../public/svgs';
 
 export default function HeroSection() {
   const listButton = [
-    { name: 'twitter', svg: TwitterIcon },
-    { name: 'web', svg: WebIcon },
-    { name: 'linkedin', svg: LinkedInIcon },
-    { name: 'github', svg: GithubIcon },
+    { name: 'twitter', svg: <TwitterIcon className={styles.svg} /> },
+    { name: 'web', svg: <WebIcon className={styles.svg} /> },
+    { name: 'linkedin', svg: <LinkedInIcon className={styles.svg} /> },
+    { name: 'github', svg: <GithubIcon className={styles.svg} /> },
   ];
 
   return (
@@ -51,13 +53,7 @@ export default function HeroSection() {
               className={`${styles.button_cv} ${styles.button_effect}`}
             >
               Download CV
-              <Image
-                src={DownloadIcon}
-                width={24}
-                height={24}
-                alt="download"
-              />
-              {/* <DownloadIcon /> */}
+              <DownloadIcon className={styles.svg} />
             </Link>
             <ul className={styles.social_box}>
               {listButton.map((button) => (
@@ -65,13 +61,7 @@ export default function HeroSection() {
                   key={button.name}
                   className={`${styles.button_media} ${styles.button_effect}`}
                 >
-                  <Image
-                    className={styles.svg_icon}
-                    src={button.svg}
-                    width={24}
-                    height={24}
-                    alt=""
-                  />
+                  {button.svg}
                 </li>
               ))}
             </ul>

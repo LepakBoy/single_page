@@ -105,6 +105,11 @@
     transition: 0.4s;
 }
 
+.svg{
+    font-size: 22px;
+    font-weight: 900;
+}
+
 .social_box{
     display: flex;
     align-items: center;

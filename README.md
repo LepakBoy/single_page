@@ -5,3 +5,7 @@ This page was built using the Next.js 14 framework, TypeScript, and CSS, and it 
 Here is a glimpse of the page : 
 
 ![image](https://github.com/LepakBoy/single_page/assets/42567590/bd2c3f58-fd60-4f18-af0d-fc330e44ac72)
+
+![image](https://github.com/LepakBoy/single_page/assets/42567590/8a7b9725-a9a8-46fb-9792-47af06eaa6c0)
+
+![image](https://github.com/LepakBoy/single_page/assets/42567590/ec234bfb-50c1-4c0d-acd9-d49fe1725cd2)

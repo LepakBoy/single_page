@@ -2,24 +2,27 @@ import React from 'react';
 import styles from './worksCard.module.css';
 import Image from 'next/image';
 
-export default function WorkdCard() {
+interface IWorkCard {
+  name: string;
+  description: string;
+  img: string;
+}
+
+export default function WorkdCard(props: IWorkCard) {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <Image
           className={styles.project_img}
-          src="/project1.png"
+          src={props.img}
           height={100}
           width={100}
           alt="projects"
         />
         <div className={styles.banner_container}>
           <div className={styles.banner}>
-            <h3 className={styles.name}>Nama Project</h3>
-            <p className={styles.description}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-              at? Ab, deleniti.
-            </p>
+            <h3 className={styles.name}>{props.name}</h3>
+            <p className={styles.description}>{props.description}</p>
           </div>
         </div>
       </div>

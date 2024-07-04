@@ -3,6 +3,7 @@ import styles from './worksSection.module.css';
 import TitleSection from '../molecule/titleSection/titleSection';
 import DescriptionSection from '../molecule/descriptionSection/descriptionSection';
 import WorkdCard from './worksCard/workdCard';
+import { worksList } from '@/static/works';
 
 export default function WorksSection() {
   return (
@@ -16,11 +17,14 @@ export default function WorksSection() {
       />
       <DescriptionSection text="I have completed a variety of projects, including interactive web applications, portfolio websites, and content management systems, demonstrating my proficiency in frontend development, backend integration, and creating engaging user experiences." />
       <div className={styles.container}>
-        <WorkdCard />
-        <WorkdCard />
-        <WorkdCard />
-        <WorkdCard />
-        <WorkdCard />
+        {worksList.map((list) => (
+          <WorkdCard
+            name={list.name}
+            description={list.description}
+            img={list.img}
+            key={list.name}
+          />
+        ))}
       </div>
     </section>
   );

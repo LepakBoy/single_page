@@ -33,7 +33,7 @@ export default function HeroSection() {
           </h1>
           <Image
             className={styles.photo_mobile}
-            src="/personal.jpeg"
+            src="/image.png"
             height={300}
             width={300}
             alt=""
@@ -70,7 +70,7 @@ export default function HeroSection() {
         <div className={styles.hero_image}>
           <Image
             className={styles.photo}
-            src="/personal.jpeg"
+            src="/image.png"
             height={300}
             width={300}
             alt=""

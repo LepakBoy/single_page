@@ -12,12 +12,16 @@
     width: 142px;
     height: 48px;
     border-radius: 50px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
     background: rgb(126,75,204);
     background:var(--prime_gradient_background);    transition: 1s;
 
+}
+
+.button_hire_link{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .button_hire:hover{

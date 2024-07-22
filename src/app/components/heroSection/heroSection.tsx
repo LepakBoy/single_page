@@ -13,10 +13,26 @@ import {
 
 export default function HeroSection() {
   const listButton = [
-    { name: 'twitter', svg: <TwitterIcon className={styles.svg} /> },
-    { name: 'web', svg: <WebIcon className={styles.svg} /> },
-    { name: 'linkedin', svg: <LinkedInIcon className={styles.svg} /> },
-    { name: 'github', svg: <GithubIcon className={styles.svg} /> },
+    {
+      name: 'twitter',
+      svg: <TwitterIcon className={styles.svg} />,
+      link: '/',
+    },
+    {
+      name: 'web',
+      svg: <WebIcon className={styles.svg} />,
+      link: '/',
+    },
+    {
+      name: 'linkedin',
+      svg: <LinkedInIcon className={styles.svg} />,
+      link: 'https://www.linkedin.com/in/fikrinadzif/',
+    },
+    {
+      name: 'github',
+      svg: <GithubIcon className={styles.svg} />,
+      link: 'https://www.github.com/LepakBoy',
+    },
   ];
 
   return (
@@ -61,7 +77,13 @@ export default function HeroSection() {
                   key={button.name}
                   className={`${styles.button_media} ${styles.button_effect}`}
                 >
-                  {button.svg}
+                  <Link
+                    className={`${styles.button_media} ${styles.button_effect}`}
+                    href={button.link}
+                    target="__blank"
+                  >
+                    {button.svg}
+                  </Link>
                 </li>
               ))}
             </ul>

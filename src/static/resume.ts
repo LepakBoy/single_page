@@ -14,5 +14,5 @@ export const coursesList = [
     {date:"2023", title: "Javascript Web Developer", text:"W3School"},
     {date:"2023", title: "React.js Web Developer", text:"W3School"},
     {date:"2021", title: "Fullstack Web Developer", text:"Fazztrack"},
-    {date:"2017", title: "2D CAD Drafter", text:"Rekayasa Engingeering School"},
+    {date:"2017", title: "2D CAD Drafter", text:"Rekayasa Engingeering Drafting School"},
 ]

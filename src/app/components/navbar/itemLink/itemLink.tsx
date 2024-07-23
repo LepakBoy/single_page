@@ -5,6 +5,7 @@ import NavLink from '../navLink';
 import MobileLink from '../mobileLink/mobileLink';
 import { links } from '@/static/navbarLink';
 import Link from 'next/link';
+import { MenuIcon } from '../../../../../public/svgs';
 
 export default function ItemLink() {
   const [open, setOpen] = useState(false);
@@ -34,11 +35,14 @@ export default function ItemLink() {
           onClick={() => setOpen((prev) => !prev)}
           className={styles.mobile_nav}
         >
-          x
+          <MenuIcon />
         </button>
       </div>
       {/* {open && <MobileLink open={open} />} */}
-      <MobileLink open={open} />
+      <MobileLink
+        setOpen={setOpen}
+        open={open}
+      />
     </>
   );
 }

@@ -6,12 +6,16 @@ import { links } from '@/static/navbarLink';
 
 interface IMobileLink {
   open: boolean;
+  setOpen: (open: boolean) => void;
 }
 
-export default function MobileLink({ open }: IMobileLink) {
+export default function MobileLink({ open, setOpen }: IMobileLink) {
   return (
     <div className={`${open ? styles.container : styles.collapsed}`}>
-      <div className={`${open ? styles.wrapper : styles.hidden}`}>
+      <div
+        onClick={() => setOpen(false)}
+        className={`${open ? styles.wrapper : styles.hidden}`}
+      >
         {open &&
           links.map((link) => (
             <NavLink

@@ -15,8 +15,8 @@ export default function WorkdCard(props: IWorkCard) {
         <Image
           className={styles.project_img}
           src={props.img}
-          height={100}
-          width={100}
+          height={200}
+          width={200}
           alt="projects"
         />
         <div className={styles.banner_container}>
